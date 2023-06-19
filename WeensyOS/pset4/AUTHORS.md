@@ -3,15 +3,14 @@ Author and collaborators
 
 Primary student
 ---------------
-(Your name.)
+Eliel Dushime
 
 
 Collaborators
 -------------
-(List any other collaborators and describe help you got from other students
-in the class.)
+TF and students at OH
 
 
 Citations
 ---------
-(List any other sources consulted.)
+StackOverflow
