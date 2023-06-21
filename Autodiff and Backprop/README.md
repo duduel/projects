@@ -52,4 +52,5 @@ import numpy as np
 f(x_1, x_2, ..., x_n) = [f_1, f_2, ..., f_m] \quad (\text{Jacobian evaluated at} \; (v_1, v_2, ..., v_n))
 jacobian_2d_list = []
 for f_i in f:
-    reverse_grad = ad.autodiff(lambda x_1, x_2, ..., x_n: f_i, {'x_1': v_1, 'x_2': v_2, ..., 'x_n': v_n}, seed=None, autodiff_mode=
+    reverse_grad = ad.autodiff(lambda x_1, x_2, ..., x_n: f_i, {'x_1': v_1, 'x_2': v_2, ..., 'x_n': v_n},
+    seed=None, autodiff_mode=1)
