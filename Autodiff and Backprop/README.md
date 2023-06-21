@@ -7,10 +7,11 @@ pip install --upgrade pip
 pip install numpy
 pip install -i https://test.pypi.org/simple/ autodiff-team52==0.0.1
 ```
+
 ```latex
 
 Using the package is straightforward. The user needs to import the module ad which contains the function \texttt{autodiff}
-that takes in 4 inputs. The function is as follows: \texttt{autodiff(f, input_dict, seed=None, autodiff_mode=0)}.
+that takes in 4 inputs. The function is as follows: autodiff(f, input_dict, seed=None, autodiff_mode=0).
 
 
 The first input is a function on which the user wishes to run Automatic differentiation on. The second input is the point of the
@@ -19,7 +20,7 @@ dictionary. The third input is the seed vector; this applies to forward automati
 given seed vector: for instance or depending on what the user wants. Then finally, the last input is a binary indicator for either
 forward or reverse mode automatic differentiation: 0 for forward mode and 1 for reverse mode.
 
-The last two inputs \texttt{seed} and \texttt{autodiff_mode} are optional (\texttt{seed} set to \texttt{None} by default, and
+The last two inputs seed and \textbf{autodiff_mode} are optional (\texttt{seed} set to \texttt{None} by default, and
 \texttt{autodiff_mode} set 0 by default). The user will only need to specify them when necessary: \texttt{seed} will always need to be
 specified for forward mode while \texttt{autodiff_mode} will always be specified for reverse mode; that is, it will need to be set to 1
 if the user is looking for reverse mode. For forward mode, the return value of the function will always be an int or float, while for
