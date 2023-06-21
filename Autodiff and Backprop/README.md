@@ -7,7 +7,7 @@ pip install --upgrade pip
 pip install numpy
 pip install -i https://test.pypi.org/simple/ autodiff-team52==0.0.1
 ```
-```math
+```latex
 \pi \approx 3.14159
 
 Using the package is straightforward. The user needs to import the module \texttt{ad} which contains the function \texttt{autodiff}
