@@ -9,9 +9,9 @@ pip install -i https://test.pypi.org/simple/ autodiff-team52==0.0.1
 ```
 ```math
 \pi \approx 3.14159
-```
-Using the package is straightforward. The user needs to import the module \texttt{ad} which contains the function $\texttt{autodiff}$
-that takes in 4 inputs. The function is as follows: $\texttt{autodiff(f, input_dict, seed=None, autodiff_mode=0)}$.
+
+Using the package is straightforward. The user needs to import the module \texttt{ad} which contains the function \texttt{autodiff}
+that takes in 4 inputs. The function is as follows: \texttt{autodiff(f, input_dict, seed=None, autodiff_mode=0)}.
 
 
 The first input is a function on which the user wishes to run Automatic differentiation on. The second input is the point of the
@@ -26,6 +26,7 @@ specified for forward mode while \texttt{autodiff_mode} will always be specified
 if the user is looking for reverse mode. For forward mode, the return value of the function will always be an int or float, while for
 reverse mode, the return value of the function will always be a dictionary that represents the gradient of the function at the
 specified point.
+```
 
 Python code:
 
