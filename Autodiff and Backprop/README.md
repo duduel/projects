@@ -2,6 +2,8 @@
 
 The code has been deployed to PyPI and can thus be downloaded with `pip` and installed by running these commands in the command line:
 
+Shell code:
+
 ```shell
 pip install --upgrade pip
 pip install numpy
@@ -25,7 +27,7 @@ if the user is looking for reverse mode. For forward mode, the return value of t
 reverse mode, the return value of the function will always be a dictionary that represents the gradient of the function at the
 specified point.
 
-Python code:
+Python shell code:
 
 ``` shell
 from autodiff_team52 import ad
