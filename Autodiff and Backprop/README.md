@@ -45,6 +45,7 @@ reverse_grad = ad.autodiff(lambda x, y: x*y, {'x':3, 'y':7}, seed=None, autodiff
 print(reverse_grad)
 
 # Output: {'x': 7.0, 'y': 3.0}
+
 One interesting use case: Jacobian for vector functions (useful for Newtons method)
 
 import numpy as np
