@@ -8,19 +8,19 @@ pip install numpy
 pip install -i https://test.pypi.org/simple/ autodiff-team52==0.0.1
 ```
 
-Using the package is straightforward. The user needs to import the module ad which contains the function **autodiff**
+Using the package is straightforward. The user needs to import the module ad which contains the function ***autodiff***
 that takes in 4 inputs. The function is as follows: ***autodiff(f, input_dict, seed=None, autodiff_mode=0)***.
 
 
-The first input is a function on which the user wishes to run **Automatic differentiation** on. The second input is the point of the
+The first input is a function on which the user wishes to run ***Automatic differentiation*** on. The second input is the point of the
 function at which one needs to calculate the derivative (or gradient) with the coordinates specified in the form of a Python
 dictionary. The third input is the seed vector; this applies to forward automatic differentiation where one needs to evaluate along a
 given seed vector: for instance or depending on what the user wants. Then finally, the last input is a binary indicator for either
 forward or reverse mode automatic differentiation: 0 for forward mode and 1 for reverse mode.
 
-The last two inputs seed and **autodiff_mode** are optional **seed** set to **None** by default, and
-**autodiff_mode** set 0 by default). The user will only need to specify them when necessary: **seed** will always need to be
-specified for forward mode while **autodiff_mode** will always be specified for reverse mode; that is, it will need to be set to 1
+The last two inputs seed and ***autodiff_mode*** are optional ***seed*** set to ***None*** by default, and
+***autodiff_mode*** set 0 by default). The user will only need to specify them when necessary: ***seed*** will always need to be
+specified for forward mode while ***autodiff_mode*** will always be specified for reverse mode; that is, it will need to be set to 1
 if the user is looking for reverse mode. For forward mode, the return value of the function will always be an int or float, while for
 reverse mode, the return value of the function will always be a dictionary that represents the gradient of the function at the
 specified point.
