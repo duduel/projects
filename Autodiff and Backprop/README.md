@@ -9,8 +9,8 @@ pip install -i https://test.pypi.org/simple/ autodiff-team52==0.0.1
 ```
 $\pi \approx 3.14159$
 
-Using the package is straightforward. The user needs to import the module \texttt{ad} which contains the function \texttt{autodiff}
-that takes in 4 inputs. The function is as follows: \texttt{autodiff(f, input_dict, seed=None, autodiff_mode=0)}.
+Using the package is straightforward. The user needs to import the module \texttt{ad} which contains the function $\texttt{autodiff}$
+that takes in 4 inputs. The function is as follows: $\texttt{autodiff(f, input_dict, seed=None, autodiff_mode=0)}$.
 
 
 The first input is a function on which the user wishes to run Automatic differentiation on. The second input is the point of the
