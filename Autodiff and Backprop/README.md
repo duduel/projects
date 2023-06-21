@@ -1,8 +1,3 @@
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
-
 ## How To Use this package:
 
 The code has been deployed to PyPI and can thus be downloaded with `pip` and installed by running these commands in the command line:
