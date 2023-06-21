@@ -1,7 +1,7 @@
 How To Use this package:
 The code has been deployed to PyPI and can thus be downloaded with pip and installed by running these commands in the command line:
 
-pip install --upgrade pip
+pip install --upgrade pip 
 pip install numpy
 pip install -i https://test.pypi.org/simple/ autodiff-team52==0.0.1
 
