@@ -1,4 +1,3 @@
-# TEAM 19
 ## Parallelization of SVD
 
 Repository stucture:
